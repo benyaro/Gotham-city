@@ -1,0 +1,49 @@
+/* resset */
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans & display=swap');
+html
+{
+    font-size: 60,5%;
+    scroll-behavior: smooth; 
+    background: rgb(0, 0, 0) url(../asset/Batman\,prin.jpg)no-repeat fixed center center/cover;
+}
+header
+{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+section,header,nav,footer
+{
+    max-width: 85%;
+    text-rendering:optimizeLegibility;
+    margin: 20px auto;
+    padding: 2rem;
+    border: #444;
+    background-color: rgb(247, 238, 238);
+}
+nav {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+z-index: 1;
+background-color:rgb(138, 164, 182) ;
+}
+h1, h2, h3,a
+    font-family : 'Comic Neue', cursive;
+    font-weight : 400;
+    text-transform : capitalize;
+}
+img 
+{
+    display : inline-block;
+    height : 60%;
+    border-bottom: 100%;
+    width : 25rem;
+    margin :1rem;
+    margin-bottom: auto;
+    padding-top: 4rem;
+}
+section
+{
+border: 2px solid rgb(114, 113, 113);
+}
